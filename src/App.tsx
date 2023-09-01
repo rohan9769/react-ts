@@ -37,7 +37,7 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Leo</Heading>
       </Oscar>
-      <Button handleClick={()=>{console.log('Button Clicked')}}></Button>
+      <Button handleClick={(event)=>{console.log('Button Clicked',event)}}></Button>
     </div>
   );
 }

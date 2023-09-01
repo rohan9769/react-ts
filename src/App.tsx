@@ -9,6 +9,7 @@ import { PersonList } from './components/PersonList';
 import { Status } from './components/Status';
 import { Heading } from './components/Heading';
 import Oscar from './components/Oscar';
+import { Button } from './components/Button';
 
 function App() {
   const personName = {
@@ -36,6 +37,7 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Leo</Heading>
       </Oscar>
+      <Button handleClick={()=>{console.log('Button Clicked')}}></Button>
     </div>
   );
 }

@@ -6,6 +6,8 @@ import { Greet } from './components/Greet';
 import { Person } from './components/Person';
 import { Vehicle } from './components/Vehicle';
 import { PersonList } from './components/PersonList';
+import { Status } from './components/Status';
+import { Heading } from './components/Heading';
 
 function App() {
   const personName = {
@@ -28,6 +30,8 @@ function App() {
       <Person name={personName}/>
       <Vehicle details={vehicleDetails}/>
       <PersonList names={nameList}/>
+      <Status status='success'/>
+      <Heading>Placeholder text</Heading>
     </div>
   );
 }
